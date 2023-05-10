@@ -1,8 +1,10 @@
 
 
 
-# Clone instagram 
-Clone da página inicial do Instagram. Projeto desenvolvido durante o Bootcamp HTML Web Developer da Digital Innovation One, utilizando HTML5 e CSS3 Flexbox. Você pode acessar o projeto clicando [Aqui](https://caiomafia.github.io/Instagram/)
+# Projeto Mirasom 
+O projeto MiraSom é um empreendimento que está sendo desenvolvido com as tecnologias CSS, HTML e JS para a criação de um e-commerce. A ideia por trás do projeto é oferecer aos clientes uma plataforma moderna, segura e fácil de entrar em contato com a loja localizada em Brasilia .
+
+
 
 ## 🛠️ Aprendizados
 
@@ -13,17 +15,13 @@ Clone da página inicial do Instagram. Projeto desenvolvido durante o Bootcamp H
 ## Apresentação 
 
 
-![image](https://user-images.githubusercontent.com/91575842/185402510-79a396ed-d236-4d40-ae78-395357580de6.png)
-
-![image](https://user-images.githubusercontent.com/91575842/187463141-3aba2d4b-8d9f-4957-9fd1-ebcd1231df55.png)
-
 
 
 ## Melhorias
 Em breve 
-- Login para Usuário [ ]
-- Melhoria de responsividade [ ] 
-- Botão para a troca de White para Dark [ ]
+- Projeto responsivo [ ]
+- Produtos  [ ] 
+- tela unitv [ ]
 
 
 ## Autores

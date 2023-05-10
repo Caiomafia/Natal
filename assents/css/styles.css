@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{color: red;}
+
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 8px;
+}
+
+main{ 
+
+    
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    
+}
+
+.lista li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+
+.mobile-menu{
+    cursor: pointer;
+}
+
+
+.mobile-menu  div {
+    width: 32px;
+    height: 2px;
+    background-color: white;
+    margin: 8px;
+    display: none;
+}
+
+@media(max-width:999px){
+    .lista{
+        position: absolute;
+        top: 8vh;
+        
+    }
+}
