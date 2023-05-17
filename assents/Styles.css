@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter' , sans-serif;
+}
+
+header{
+    background-color: black;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    display: flex;
+    justify-content:space-around ;
+}
