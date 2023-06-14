@@ -24,9 +24,9 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                       <li class="nav__item">  <a href="#home" class="nav__link active-link">Home</a></li>
-                       <li class="nav__item"> <a href="#program" class="nav__link">Programas</a>  </li>
-                       <li class="nav__item"><a href="#choose" class="nav__link">Choose Us</a></li>
-                       <li class="nav__item"><a href="#pricing" class="nav__link">Preço</a></li>
+                       <li class="nav__item"> <a href="#program" class="nav__link">Programação</a>  </li>
+                       <li class="nav__item"><a href="#choose" class="nav__link">Academia</a></li>
+                       <li class="nav__item"><a href="#pricing" class="nav__link">Planos</a></li>
                     <div class="nav__link">
                         <a href="#footer" class="button nav__button">Contato</a>
                     </div>        
@@ -52,16 +52,15 @@
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__data">
-                    <h2 class="home__subtitle">MAKE YOUR</h2>
-                    <h1 class="home__title">BODY SHAPE</h1>
-                    <p class="home__description">
-                        In here we will help you to shape and build your ideal
-                        body and live your life to the fullest.
-                    </p>
-                    <a href="#" class="button button__flex">
-                        Get Started <i class="ri-arrow-right-line"></i>
-                    </a>
-                </div>
+                    <h2 class="home__subtitle">Novo Projeto</h2>
+                    <h1 class="home__title">Verão</h1>
+                    <p class="home__description">Só para avisar: o projeto verão é <br> construído todos os dias.</p>
+
+                    
+                    <a href="#" class="button button__flex">Começar agora <i class="ri-arrow-right-line"></i></a>
+                </div>       
+                    
+
 
                 <div class="home__images">
                     <img src="assets/img/home-img.png" alt="home image" class="home__img">
@@ -87,17 +86,18 @@
         <section class="program section" id="program">
             <div class="container">
                 <div class="section__data">
-                    <h2 class="section__subtitle">Our Program</h2>
+                    <h2 class="section__subtitle">Programações </h2>
                     <div class="section__titles">
-                        <h1 class="section__title-border">BUILD YOUR</h1>
-                        <h1 class="section__title">BEST BODY</h1>
+                        <h1 class="section__title-border">Sua saúde e  </h1>
+                        <h1 class="section__title">Prioridade</h1>
                     </div>
                 </div>
 
                 <div class="program__container grid">
+
                     <article class="program__card">
                         <div class="program__shape">
-                            <img src="assets/img/program1.png" alt="program image" class="program__img">
+                            <img src="https://smart-site-assets-production.s3.amazonaws.com/assets/new-home-v4-assets/aulas/fitdance-cover.webp" alt="program image" class="program__img">
                         </div>
 
                         <h3 class="program__title">Flex Muscle</h3>
@@ -114,24 +114,7 @@
 
                     <article class="program__card">
                         <div class="program__shape">
-                            <img src="assets/img/program2.png" alt="program image" class="program__img">
-                        </div>
-
-                        <h3 class="program__title">Cardio Exercise</h3>
-
-                        <p class="program__description">
-                            Exercise your heart rate up and keeps it
-                            up for a prolonged period of time.
-                        </p>
-
-                        <a href="#" class="program__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </a>
-                    </article>
-
-                    <article class="program__card">
-                        <div class="program__shape">
-                            <img src="assets/img/program3.png" alt="program image" class="program__img">
+                            <img src="https://smart-site-assets-production.s3.amazonaws.com/assets/new-home-v4-assets/aulas/body-combat-cover.webp" alt="program image" class="program__img">
                         </div>
 
                         <h3 class="program__title">Basic Yoga</h3>
@@ -145,22 +128,15 @@
                             <i class="ri-arrow-right-line"></i>
                         </a>
                     </article>
-
+                    
                     <article class="program__card">
                         <div class="program__shape">
-                            <img src="assets/img/program4.png" alt="program image" class="program__img">
+                            <img src="https://smart-site-assets-production.s3.amazonaws.com/assets/new-home-v4-assets/aulas/smart-cross-cover.webp" alt="program image" class="program__img">
                         </div>
-
-                        <h3 class="program__title">Weight Lifting</h3>
-
-                        <p class="program__description">
-                            Attempts a maximum weight single lift of a
-                            barbell loaded with weight plates.
-                        </p>
-
-                        <a href="#" class="program__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </a>
+                        
+                        <h3 class="program__title">Muscalação</h3>                      
+                        <p class="program__description">Treinos montados de acordo com seus objetivos </p>
+                        <a href="#" class="program__button"><i class="ri-arrow-right-line"></i></a>     
                     </article>
                 </div>
             </div>
@@ -329,42 +305,7 @@
             </div>
         </section>
 
-        <!--==================== CALCULATE ====================-->
-        <section class="calculate section">
-            <div class="calculate__container container grid">
-                <div class="calculate__content">
-                    <div class="section__titles">
-                        <h1 class="section__title-border">CALCULATE</h1>
-                        <h1 class="section__title">YOUR BMI</h1>
-                    </div>
-
-                    <p class="calculate__description">
-                        The body mass index (BMI) calculator calculates
-                        body mass index from your weight and height.
-                    </p>
-
-                    <form action="" class="calculate__form" id="calculate-form">
-                        <div class="calculate__box">
-                            <input type="number" placeholder="Height" class="calculate__input" id="calculate-cm">
-                            <label for="" class="calculate__label">cm</label>
-                        </div>
-                        <div class="calculate__box">
-                            <input type="number" placeholder="Weight" class="calculate__input" id="calculate-kg">
-                            <label for="" class="calculate__label">kg</label>
-                        </div>
-
-                        <button type="submit" class="button button__flex">
-                            Calculate Now <i class="ri-arrow-right-line"></i>
-                        </button>
-                    </form>
-
-                    <p class="calculate__message" id="calculate-message"></p>
-                </div>
-
-                <img src="assets/img/calculate-img.png" alt="calculate image" class="calculate__img">
-            </div>
-        </section>
-    </main>
+       
 
     <!--==================== FOOTER ====================-->
     <footer class="footer section" id="footer">
