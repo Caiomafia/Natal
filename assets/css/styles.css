@@ -377,6 +377,7 @@ img {
   grid-template-columns: 250px;
   justify-content: center;
   row-gap: 2rem;
+
 }
 
 .program__card {
@@ -387,10 +388,13 @@ img {
   background-color: hsla(79, 6%, 64%, .07);
   border: 2px solid transparent;
   transition: background .5s, border .4s;
+  border-radius: 5%;
+  
 }
 
 .program__img {
   width: 100%;
+  border-radius: 5%;
 }
 
 .program__shape {
