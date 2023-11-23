@@ -19,5 +19,6 @@ Link do Projeto:
 Link do protótipo: <a href="https://www.behance.net/gallery/174342869/Landing-Page-Fitflow">Aqui</a>
 
 <hr>
-Código e protótipo desenvolvido por <a href="https://www.linkedin.com/in/thabataamandagomide/">Thabata Amanda Gomide</a>
+
+
 
