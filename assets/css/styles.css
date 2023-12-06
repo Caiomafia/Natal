@@ -153,7 +153,7 @@ img {
     .nav_menu{
         position: fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         background:var(--gradient-color);
         width: 80%;
         height: 100%;
@@ -228,24 +228,44 @@ img {
 
 .nav_close{
     position: absolute;
-    top: 1.15px;
+    top: 1.15rem;
     right: 1.5rem;   
 }
 
 
-.active-link{
-    color: var(--title-color);
-}
+
 
 /* Active link */
 
-
+.active-link{
+    color: var(--title-color);
+}
 /* Show menu */
 
+.active-menu{
+  right: 0;
+}
 
 /*=============== BUTTON ===============*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: white;
+  font-weight: var(--font-bold);
+  padding: 1.15rem 2rem;
+  border-radius: .75rem;
+  box-shadow: 0 4px 24px hsla(0, 0%,0%,.2);
+  transition: background-color .4s;
+}
 
 
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
+.button_dark{background-color: var(--first-color-dark);}
+
+.button_dark:hover{background-color: var(--first-color-darker);}
 /*=============== HOME ===============*/
 
 
