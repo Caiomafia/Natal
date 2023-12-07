@@ -285,7 +285,7 @@ img {
 
 
 .home_img{
-  width: 60%;
+  width: 40rem;
   transform: scale(1.2);
   transform-origin: top;
   justify-self: center;
@@ -376,13 +376,32 @@ display:inline-grid;
 
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
+/* For samll devices */
+@media screen and(max-width:360px) {
+  .container{
+    margin: inline 1rem; ;
+  }
+}
+
+
+
 
 
 /* For medium devices */
-
+@media  screen and (max-width:400px) {
+  .home_container{
+    grid-template-columns: 360px;
+    justify-content: center;
+    row-gap: 3rem;
+  }
+  .home_img{
+    transform: scale(1.1);
+  }
+}
 
 /* For lower devices */
-
+@media screen and(max-width:968px)  and (max-height:720px){
+  
+}
 
 /* For large devices */
