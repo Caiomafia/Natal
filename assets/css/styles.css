@@ -293,6 +293,88 @@ img {
 
 .home_data{text-align: center;}
 
+.home_title{
+  color: var(--title-color);
+  margin: 1rem;
+  font-weight: var(--font-bold);
+  font-size: var(--biggest-font-size);
+}
+
+
+.home_number,
+.home_text{
+display:inline-grid;
+}
+
+
+
+.home_number{
+  position: relative;
+  place-items: center;
+  margin-left: .75rem;
+  width: 44px;
+  height: 44px;
+  background-color: var(--first-color-darker);
+  border-radius: 50%;
+  font-size: var(--h2-font-size);
+  transform: translateY(-4px);
+}
+
+
+.home_number::after{
+  content: '';
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  border: 10px solid var(--first-color);
+  border-radius: 50%;
+  border-right-color:transparent ;
+  border-top-color:transparent ;
+  transform: rotate(45deg);
+}
+
+.home_description{
+  margin-bottom: 2rem;
+  color: var(--title-color);
+}
+
+
+.home_star,
+.home_bell{ position: absolute;}
+
+
+.home_bell{
+  width: 60px;
+  top: 12rem;
+  right: 1rem;
+  transform: rotate(30deg);
+}
+
+.home_star{
+  width: 60px;
+  top: 25rem;
+  left: -1.1rem;
+  transform:
+ rotate(45deg);
+}
+
+
+.home_blob{
+  background-color: var(--first-color-dark);
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 4rem;
+  transform: rotate(45deg);
+  left: -23rem;
+
+
+}
+
+
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 

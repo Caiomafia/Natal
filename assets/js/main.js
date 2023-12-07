@@ -32,4 +32,39 @@ const linkAction = () =>{
 navlink.forEach(n=>n.addEventListener('click' , linkAction))
 
 
-/*=============== DAY COUNTER FOR CHRISTMAS ===============*/
+/*============== Quanto falta para o proximo natal  ===============*/
+
+
+const titleData = document.querySelector('title-data'),
+       numberData = document.getElementById('number-data'),
+       textData = document.getElementById('text-data'),
+       msgChristmas = document.getElementById('msn-christmas')
+
+
+       const msgChristmasdown = () => {
+        let now = new Date(),
+              currentMonth = now.getMonth() + 1,
+              currentDay = now.getDate()
+            //calculate os years the next Christmas
+              let nextChristwasYear = now.getFullYear()
+              if(currentMonth == 12 && currentDay > 25){
+                nextChristwasYear =+1
+              }
+
+             let nextChristwasDate = `Dec 25 ${nextChristwasYear} 00:00:00`,
+              christmasDay = new Date(nextChristwasDate),
+              timeLeft  = christmasDay - now ;
+
+
+        let day = 0,
+             hours = 0,
+             minutes = 0,
+             seconds = 0;
+
+
+             // Don't calculate the time left if it is Christmas day
+        }
+
+
+
+        setInterval(msgChristmasdown , 1000)
