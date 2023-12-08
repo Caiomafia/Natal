@@ -35,11 +35,10 @@ navlink.forEach(n=>n.addEventListener('click' , linkAction))
 /*============== Quanto falta para o proximo natal  ===============*/
 
 
-const titleData = document.getElementById('title-data'),
+const titleData = document.querySelector('title-data'),
        numberData = document.getElementById('number-data'),
        textData = document.getElementById('text-data'),
        msgChristmas = document.getElementById('msn-christmas')
-       
 
 
        const msgChristmasdown = () => {
@@ -94,13 +93,12 @@ const titleData = document.getElementById('title-data'),
 
 
                 //mensagem de feliz natal 
-                let home_data = document.querySelector('.home_data')
-
-
                 if(currentMonth == 12 && currentDay == 25){
                     titleData.style.display = 'none'
+                    numberData.style.display = 'none'
                     msgChristmas.style.display = 'block'
-                    msgChristmas.innerHTML = 'Feliz Natal '
+                    msgChristmas.innerHTML = 'Feliz natal'
+                
                 }
                 
               
@@ -109,17 +107,3 @@ const titleData = document.getElementById('title-data'),
 
 
         setInterval(msgChristmasdown , 1000)
-
-
-
-        var minhaMusica = document.getElementById('minhaMusica');
-
-        // Função para tocar a música
-        function tocarMusica() {
-            minhaMusica.play();
-        }
-    
-        // Função para pausar a música
-        function pausarMusica() {
-            minhaMusica.pause();
-        }
