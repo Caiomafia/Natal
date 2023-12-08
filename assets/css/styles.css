@@ -167,6 +167,32 @@ img {
     }
 }
 
+@media screen and (min-width:1150px){
+  .nav_menu{
+      position: fixed;
+      top: 0;
+      right: -100%;
+      background:var(--gradient-color);
+      width: 80%;
+      height: 100%;
+      box-shadow: -2px 0 12px hsla(0, 0%,0%,.2);
+      padding: 6rem 2rem 0;
+      display: flex;
+      flex-direction: column;
+      row-gap: 5rem;
+      transition: right .4s ;
+
+  }
+
+
+.home_img{
+  width: 40%;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+}
+
+}
+
 
 
 .nav_list{

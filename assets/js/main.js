@@ -73,18 +73,18 @@ const titleData = document.getElementById('title-data'),
 
              }
                 numberData.innerHTML = dias < 10 ? `0${dias}` : dias
-                textData.innerHTML = 'Days'
+                textData.innerHTML = 'Dias'
 
 
 
                 if(currentDay == 24){
                     numberData.innerHTML = hours <10 ? `0${hours}`: hours
-                    textData.innerHTML = `Hours`
+                    textData.innerHTML = `Horas`
                 }
 
                 if(currentDay == 24 && hours === 0 ){
                     numberData.innerHTML = minutes < 10 ? `0${minutes}`: minutes
-                    textData.innerHTML = `Minutes`
+                    textData.innerHTML = `Minutos`
                 }
                 
                 if(currentDay == 24 && hours === 0 && minutes === 0){
