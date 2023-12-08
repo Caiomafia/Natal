@@ -5,9 +5,10 @@ Um simples projeto web para contar os dias, meses, horas e segundos até o Natal
 ## Sobre o Projeto
 
 
-
-<img src="assets/image/mobile (2).png">
-<img src="assets/image/mobile (1).png">
+<p float="left">
+  <img src="assets/image/mobile (1).png" width="300" />
+  <img src="assets/image/mobile (2).png" width="300" />
+</p>
 
 
 
