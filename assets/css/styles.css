@@ -112,6 +112,7 @@ img {
     height: var(--header-height);
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -428,7 +429,7 @@ display:inline-grid;
     width: 50%;  }
 
 .home_container{
-  width: 50%
+  width: 50%;
   height: 100vh;
 
 }

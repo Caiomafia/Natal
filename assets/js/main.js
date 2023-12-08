@@ -38,7 +38,8 @@ navlink.forEach(n=>n.addEventListener('click' , linkAction))
 const titleData = document.querySelector('title-data'),
        numberData = document.getElementById('number-data'),
        textData = document.getElementById('text-data'),
-       msgChristmas = document.getElementById('msn-christmas')
+       msgChristmas = document.getElementById('msn-christmas'),
+       txttdata = document.querySelector('.txtdata')
 
 
        const msgChristmasdown = () => {
@@ -78,7 +79,9 @@ const titleData = document.querySelector('title-data'),
 
                 if(currentDay == 24){
                     numberData.innerHTML = hours <10 ? `0${hours}`: hours
-                    textData.innerHTML = `Horas`
+                    textData.innerHTML = 'Horas'
+
+                    txttdata.innerHTML = `Últimas`;
                 }
 
                 if(currentDay == 24 && hours === 0 ){
