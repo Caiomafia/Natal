@@ -7,7 +7,7 @@ Um simples projeto web para contar os dias, meses, horas e segundos até o Natal
 
 <p float="left">
   <img src="assets/image/mobile (1).png" width="200" />
-  <img src="assets/image/mobile (2).png" width="800" />
+  <img src="assets/image/mobile (2).png" width="600" />
 </p>
 
 
