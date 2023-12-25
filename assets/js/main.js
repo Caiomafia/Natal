@@ -56,13 +56,52 @@ const titleData = document.querySelector('title-data'),
               timeLeft  = christmasDay - now ;
 
 
-        let day = 0,
+        let dias = 0,
              hours = 0,
              minutes = 0,
              seconds = 0;
 
 
              // Don't calculate the time left if it is Christmas day
+
+             if(currentMonth != 12 || (currentMonth == 12 && currentDay != 25)){
+             dias = Math.floor(timeLeft /1000 / 60 / 60 / 24)
+             hours = Math.floor(timeLeft /1000 / 60 / 60 ) % 24
+             minutes = Math.floor(timeLeft /1000 / 60 ) % 60
+             seconds = Math.floor(timeLeft /1000) % 60
+
+             }
+                numberData.innerHTML = dias < 10 ? `0${dias}` : dias
+                textData.innerHTML = 'Days'
+
+
+
+                if(currentDay == 24){
+                    numberData.innerHTML = hours <10 ? `0${hours}`: hours
+                    textData.innerHTML = `Hours`
+                }
+
+                if(currentDay == 24 && hours === 0 ){
+                    numberData.innerHTML = minutes < 10 ? `0${minutes}`: minutes
+                    textData.innerHTML = `Minutes`
+                }
+                
+                if(currentDay == 24 && hours === 0 && minutes === 0){
+                    numberData.innerHTML = seconds < 10 ? `0${seconds}`:seconds 
+                    textData.innerHTML = 'Segundos'
+                }
+
+
+                //mensagem de feliz natal 
+                if(currentMonth == 12 && currentDay == 25){
+                    titleData.style.display = 'none'
+                    numberData.style.display = 'none'
+                    msgChristmas.style.display = 'block'
+                    msgChristmas.innerHTML = 'Feliz natal'
+                
+                }
+                
+              
         }
 
 
